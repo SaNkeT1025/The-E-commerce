@@ -1,0 +1,43 @@
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;  // 16px
+  padding-right: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  @media (min-width: 640px) {
+    max-width: 640px;
+  }
+
+  @media (min-width: 768px) {
+    max-width: 768px;
+  }
+
+  @media (min-width: 1024px) {
+    max-width: 1024px;
+  }
+}
+
+.signup_form {
+    display: flex;
+    font-family: sans-serif;
+    border: 1px solid lightblue;
+    border-radius: 2rem;
+    height: 550px;
+    width: 900px;
+}
+
+
+.heading_style {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.first_last_name_flexbox {
+
+}
