@@ -22,6 +22,21 @@
   }
 }
 
+.left_form_section{
+    padding: 2.5rem;
+}
+
+.right_form_section{
+    height: 100%;
+    width: 100%;
+    padding: 2.5rem;
+    background-image: url(/signUpPageBackground.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;//strect the image vertically
+    
+}
+
 .signup_form {
     display: flex;
     font-family: sans-serif;
@@ -29,6 +44,7 @@
     border-radius: 2rem;
     height: 550px;
     width: 900px;
+    overflow: hidden;
 }
 
 
@@ -39,5 +55,42 @@
 }
 
 .first_last_name_flexbox {
+    display: flex;
+    gap: 1rem;
+}
 
+.input_signup {
+    border: 1px solid ;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin-top: 1.5rem;
+}
+
+.signUpButton{
+    margin-top: 1.5rem;
+    padding: 0 0.5rem;
+    height: 2rem;
+    font-size: 15px;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 7px;
+}
+
+.signInButton {
+    padding: 0 0.5rem;
+    height: 2rem;
+    font-size: 15px;
+    background-color: white;
+    color: dodgerblue;
+    border-radius: 7px;
+}
+
+.signInDiv {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.signInText {
+    color: white;
 }

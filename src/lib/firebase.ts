@@ -12,7 +12,7 @@ const firebaseConfig = {
   apiKey: "AIzaSyAa7b1ZIkN74Q68pGk0QtJjnZ9nI8r_aBg",
   authDomain: "e-commerce-website-next-fc04e.firebaseapp.com",
   projectId: "e-commerce-website-next-fc04e",
-  storageBucket: "e-commerce-website-next-fc04e.firebasestorage.app",
+  storageBucket: "e-commerce-website-next-fc04e.appspot.com",
   messagingSenderId: "253210742487",
   appId: "1:253210742487:web:dee02458c89351b250ea92",
   measurementId: "G-X84XYDN8PY"

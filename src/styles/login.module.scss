@@ -1,0 +1,85 @@
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;  // 16px
+  padding-right: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('/loginPageBackroundIamge.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+
+//   @media (min-width: 640px) {
+//     max-width: 640px;
+//   }
+
+//   @media (min-width: 768px) {
+//     max-width: 768px;
+//   }
+
+//   @media (min-width: 1024px) {
+//     max-width: 1024px;
+//   }
+}
+
+.logInBox {
+    height: 325px;
+    width: 350px;
+    border-radius: 2rem;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 14px 16px 20px 0px;
+    background: floralwhite;
+}
+
+.signInInput{
+    border: 1px solid ;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin-top: 1.5rem;
+    width: 225px;
+}
+
+
+.signUpLink {
+    color: black;
+    text-decoration: none;
+}
+
+.signUpText{
+    margin-top: 1.5rem;
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.loginButton {
+    margin: auto;
+    margin-top: 1.2rem;
+    height: 2rem;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    width: 80px;
+    padding: 5px 5px;
+}
+
+.welcomeText{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.errorText {
+    color: red;
+    margin-bottom: 0;
+    margin-top: 0;
+}
